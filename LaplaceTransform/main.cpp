@@ -6,10 +6,16 @@
 //  Copyright © 2017 Bajwa. All rights reserved.
 //
 
-#include <iostream>
-
+#include "Header.h"
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    string sent[100];
+    int n,in=0;
+    cin>>n;
+    cin.ignore();
+    while(n--){
+        getline(cin,sent[in++]);
+        cout<<getvalofword(sent[in-1])<<endl;
+    }
+    
     return 0;
 }

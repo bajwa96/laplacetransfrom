@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		2E133B441F5D16180012C30C /* LaplaceTransform */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LaplaceTransform; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E133B471F5D16180012C30C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2E133B521F5D1A8B0012C30C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				2E133B471F5D16180012C30C /* main.cpp */,
+				2E133B521F5D1A8B0012C30C /* Header.h */,
 			);
 			path = LaplaceTransform;
 			sourceTree = "<group>";
